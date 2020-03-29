@@ -102,10 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				02926FE6243168F500ADF855 /* AppStart */,
+				02926FEA24316C8B00ADF855 /* CoreData */,
+				02926FE924316C8000ADF855 /* Helper */,
+				02926FE724316C5500ADF855 /* Resource */,
+				02926FE824316C5E00ADF855 /* Source */,
 				02926FBA2431682E00ADF855 /* ContentView.swift */,
-				02926FBC2431683000ADF855 /* Assets.xcassets */,
 				02926FC42431683000ADF855 /* Info.plist */,
-				02926FB72431682E00ADF855 /* GPSPockemon.xcdatamodeld */,
 				02926FBE2431683000ADF855 /* Preview Content */,
 			);
 			path = GPSPockemon;
@@ -145,6 +147,44 @@
 				02926FB52431682E00ADF855 /* SceneDelegate.swift */,
 			);
 			path = AppStart;
+			sourceTree = "<group>";
+		};
+		02926FE724316C5500ADF855 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				02926FBC2431683000ADF855 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		02926FE824316C5E00ADF855 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		02926FE924316C8000ADF855 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		02926FEA24316C8B00ADF855 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				02926FEB24316D6700ADF855 /* DataBase */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		02926FEB24316D6700ADF855 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				02926FB72431682E00ADF855 /* GPSPockemon.xcdatamodeld */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
