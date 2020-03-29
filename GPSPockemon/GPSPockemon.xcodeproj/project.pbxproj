@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02926FB42431682E00ADF855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02926FB32431682E00ADF855 /* AppDelegate.swift */; };
+		02926FB62431682E00ADF855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02926FB52431682E00ADF855 /* SceneDelegate.swift */; };
+		02926FB92431682E00ADF855 /* GPSPockemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02926FB72431682E00ADF855 /* GPSPockemon.xcdatamodeld */; };
+		02926FBB2431682E00ADF855 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02926FBA2431682E00ADF855 /* ContentView.swift */; };
+		02926FBD2431683000ADF855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02926FBC2431683000ADF855 /* Assets.xcassets */; };
+		02926FC02431683000ADF855 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02926FBF2431683000ADF855 /* Preview Assets.xcassets */; };
+		02926FC32431683000ADF855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02926FC12431683000ADF855 /* LaunchScreen.storyboard */; };
+		02926FCE2431683100ADF855 /* GPSPockemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02926FCD2431683100ADF855 /* GPSPockemonTests.swift */; };
+		02926FD92431683100ADF855 /* GPSPockemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02926FD82431683100ADF855 /* GPSPockemonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02926FCA2431683100ADF855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02926FA82431682E00ADF855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02926FAF2431682E00ADF855;
+			remoteInfo = GPSPockemon;
+		};
+		02926FD52431683100ADF855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02926FA82431682E00ADF855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02926FAF2431682E00ADF855;
+			remoteInfo = GPSPockemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02926FB02431682E00ADF855 /* GPSPockemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSPockemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02926FB32431682E00ADF855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02926FB52431682E00ADF855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02926FB82431682E00ADF855 /* GPSPockemon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPSPockemon.xcdatamodel; sourceTree = "<group>"; };
+		02926FBA2431682E00ADF855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02926FBC2431683000ADF855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02926FBF2431683000ADF855 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02926FC22431683000ADF855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02926FC42431683000ADF855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02926FC92431683100ADF855 /* GPSPockemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSPockemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02926FCD2431683100ADF855 /* GPSPockemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSPockemonTests.swift; sourceTree = "<group>"; };
+		02926FCF2431683100ADF855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02926FD42431683100ADF855 /* GPSPockemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSPockemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02926FD82431683100ADF855 /* GPSPockemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSPockemonUITests.swift; sourceTree = "<group>"; };
+		02926FDA2431683100ADF855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02926FAD2431682E00ADF855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02926FC62431683100ADF855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02926FD12431683100ADF855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02926FA72431682E00ADF855 = {
+			isa = PBXGroup;
+			children = (
+				02926FB22431682E00ADF855 /* GPSPockemon */,
+				02926FCC2431683100ADF855 /* GPSPockemonTests */,
+				02926FD72431683100ADF855 /* GPSPockemonUITests */,
+				02926FB12431682E00ADF855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02926FB12431682E00ADF855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02926FB02431682E00ADF855 /* GPSPockemon.app */,
+				02926FC92431683100ADF855 /* GPSPockemonTests.xctest */,
+				02926FD42431683100ADF855 /* GPSPockemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02926FB22431682E00ADF855 /* GPSPockemon */ = {
+			isa = PBXGroup;
+			children = (
+				02926FE6243168F500ADF855 /* AppStart */,
+				02926FBA2431682E00ADF855 /* ContentView.swift */,
+				02926FBC2431683000ADF855 /* Assets.xcassets */,
+				02926FC42431683000ADF855 /* Info.plist */,
+				02926FB72431682E00ADF855 /* GPSPockemon.xcdatamodeld */,
+				02926FBE2431683000ADF855 /* Preview Content */,
+			);
+			path = GPSPockemon;
+			sourceTree = "<group>";
+		};
+		02926FBE2431683000ADF855 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02926FBF2431683000ADF855 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02926FCC2431683100ADF855 /* GPSPockemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				02926FCD2431683100ADF855 /* GPSPockemonTests.swift */,
+				02926FCF2431683100ADF855 /* Info.plist */,
+			);
+			path = GPSPockemonTests;
+			sourceTree = "<group>";
+		};
+		02926FD72431683100ADF855 /* GPSPockemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02926FD82431683100ADF855 /* GPSPockemonUITests.swift */,
+				02926FDA2431683100ADF855 /* Info.plist */,
+			);
+			path = GPSPockemonUITests;
+			sourceTree = "<group>";
+		};
+		02926FE6243168F500ADF855 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				02926FC12431683000ADF855 /* LaunchScreen.storyboard */,
+				02926FB32431682E00ADF855 /* AppDelegate.swift */,
+				02926FB52431682E00ADF855 /* SceneDelegate.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02926FAF2431682E00ADF855 /* GPSPockemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02926FDD2431683100ADF855 /* Build configuration list for PBXNativeTarget "GPSPockemon" */;
+			buildPhases = (
+				02926FAC2431682E00ADF855 /* Sources */,
+				02926FAD2431682E00ADF855 /* Frameworks */,
+				02926FAE2431682E00ADF855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSPockemon;
+			productName = GPSPockemon;
+			productReference = 02926FB02431682E00ADF855 /* GPSPockemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02926FC82431683100ADF855 /* GPSPockemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02926FE02431683100ADF855 /* Build configuration list for PBXNativeTarget "GPSPockemonTests" */;
+			buildPhases = (
+				02926FC52431683100ADF855 /* Sources */,
+				02926FC62431683100ADF855 /* Frameworks */,
+				02926FC72431683100ADF855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02926FCB2431683100ADF855 /* PBXTargetDependency */,
+			);
+			name = GPSPockemonTests;
+			productName = GPSPockemonTests;
+			productReference = 02926FC92431683100ADF855 /* GPSPockemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02926FD32431683100ADF855 /* GPSPockemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02926FE32431683100ADF855 /* Build configuration list for PBXNativeTarget "GPSPockemonUITests" */;
+			buildPhases = (
+				02926FD02431683100ADF855 /* Sources */,
+				02926FD12431683100ADF855 /* Frameworks */,
+				02926FD22431683100ADF855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02926FD62431683100ADF855 /* PBXTargetDependency */,
+			);
+			name = GPSPockemonUITests;
+			productName = GPSPockemonUITests;
+			productReference = 02926FD42431683100ADF855 /* GPSPockemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02926FA82431682E00ADF855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gilson Santos";
+				TargetAttributes = {
+					02926FAF2431682E00ADF855 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					02926FC82431683100ADF855 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 02926FAF2431682E00ADF855;
+					};
+					02926FD32431683100ADF855 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 02926FAF2431682E00ADF855;
+					};
+				};
+			};
+			buildConfigurationList = 02926FAB2431682E00ADF855 /* Build configuration list for PBXProject "GPSPockemon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02926FA72431682E00ADF855;
+			productRefGroup = 02926FB12431682E00ADF855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02926FAF2431682E00ADF855 /* GPSPockemon */,
+				02926FC82431683100ADF855 /* GPSPockemonTests */,
+				02926FD32431683100ADF855 /* GPSPockemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02926FAE2431682E00ADF855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02926FC32431683000ADF855 /* LaunchScreen.storyboard in Resources */,
+				02926FC02431683000ADF855 /* Preview Assets.xcassets in Resources */,
+				02926FBD2431683000ADF855 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02926FC72431683100ADF855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02926FD22431683100ADF855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02926FAC2431682E00ADF855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02926FB42431682E00ADF855 /* AppDelegate.swift in Sources */,
+				02926FB92431682E00ADF855 /* GPSPockemon.xcdatamodeld in Sources */,
+				02926FBB2431682E00ADF855 /* ContentView.swift in Sources */,
+				02926FB62431682E00ADF855 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02926FC52431683100ADF855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02926FCE2431683100ADF855 /* GPSPockemonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02926FD02431683100ADF855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02926FD92431683100ADF855 /* GPSPockemonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02926FCB2431683100ADF855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02926FAF2431682E00ADF855 /* GPSPockemon */;
+			targetProxy = 02926FCA2431683100ADF855 /* PBXContainerItemProxy */;
+		};
+		02926FD62431683100ADF855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02926FAF2431682E00ADF855 /* GPSPockemon */;
+			targetProxy = 02926FD52431683100ADF855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02926FC12431683000ADF855 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02926FC22431683000ADF855 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02926FDB2431683100ADF855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02926FDC2431683100ADF855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02926FDE2431683100ADF855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GPSPockemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 34J349V9U7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GPSPockemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gpspockemon.GPSPockemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02926FDF2431683100ADF855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GPSPockemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 34J349V9U7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GPSPockemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gpspockemon.GPSPockemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02926FE12431683100ADF855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34J349V9U7;
+				INFOPLIST_FILE = GPSPockemonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gpspockemon.GPSPockemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSPockemon.app/GPSPockemon";
+			};
+			name = Debug;
+		};
+		02926FE22431683100ADF855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34J349V9U7;
+				INFOPLIST_FILE = GPSPockemonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gpspockemon.GPSPockemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSPockemon.app/GPSPockemon";
+			};
+			name = Release;
+		};
+		02926FE42431683100ADF855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34J349V9U7;
+				INFOPLIST_FILE = GPSPockemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gpspockemon.GPSPockemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSPockemon;
+			};
+			name = Debug;
+		};
+		02926FE52431683100ADF855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34J349V9U7;
+				INFOPLIST_FILE = GPSPockemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gpspockemon.GPSPockemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSPockemon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02926FAB2431682E00ADF855 /* Build configuration list for PBXProject "GPSPockemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02926FDB2431683100ADF855 /* Debug */,
+				02926FDC2431683100ADF855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02926FDD2431683100ADF855 /* Build configuration list for PBXNativeTarget "GPSPockemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02926FDE2431683100ADF855 /* Debug */,
+				02926FDF2431683100ADF855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02926FE02431683100ADF855 /* Build configuration list for PBXNativeTarget "GPSPockemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02926FE12431683100ADF855 /* Debug */,
+				02926FE22431683100ADF855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02926FE32431683100ADF855 /* Build configuration list for PBXNativeTarget "GPSPockemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02926FE42431683100ADF855 /* Debug */,
+				02926FE52431683100ADF855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02926FB72431682E00ADF855 /* GPSPockemon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02926FB82431682E00ADF855 /* GPSPockemon.xcdatamodel */,
+			);
+			currentVersion = 02926FB82431682E00ADF855 /* GPSPockemon.xcdatamodel */;
+			path = GPSPockemon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02926FA82431682E00ADF855 /* Project object */;
+}
