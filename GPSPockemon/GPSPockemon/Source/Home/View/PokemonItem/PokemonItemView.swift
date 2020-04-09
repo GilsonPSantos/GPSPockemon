@@ -10,20 +10,25 @@ import SwiftUI
 
 struct PokemonItemView: View {
     var body: some View {
-        
-        HStack {
-            
-            Image(systemName: "bullbassauro")
-            .resizable()
-                .frame(width: 100, height: 100, alignment: .leading)
-            .clipShape(Circle())
-                .background(Color.black)
-            Spacer()
-            
-            
-        }.padding()
-        
-        
+        VStack {
+            Image("bullbassauro")
+                .resizable()
+                .frame(width: 150, height: 150, alignment: .leading)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                .shadow(radius: 10)
+            Text("Bulbassaur")
+                .bold()
+                .font(.title)
+            HStack {
+                Text("Grass")
+                    .padding(5)
+                    .background(Color.green)
+                Text("Paison")
+                    .padding(5)
+                    .background(Color.blue)
+            }
+        }.padding()  
     }
 }
 
