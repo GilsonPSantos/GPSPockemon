@@ -10,16 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView(.vertical) {
-            VStack {
-                ForEach(0..<10) {_ in
-                    HStack(spacing: 30) {
-                        ForEach(0..<2) { _ in
-                            PokemonItemView()
+        NavigationView {
+            ScrollView(.vertical) {
+                VStack {
+                    ForEach(0..<10) {_ in
+                        HStack(spacing: 30) {
+                            ForEach(0..<2) { _ in
+                                PokemonItemView()
+                            }
                         }
                     }
                 }
-            }.frame(minWidth: 0, maxWidth: .infinity, alignment: .top)
+                .frame(minWidth: 0, maxWidth: .infinity, alignment: .top)
+                .navigationBarTitle("Pokemons")
+            }
         }
     }
 }
