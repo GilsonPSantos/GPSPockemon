@@ -13,13 +13,13 @@ struct ContentView: View {
         ScrollView(.vertical) {
             VStack {
                 ForEach(0..<10) {_ in
-                    HStack {
+                    HStack(spacing: 30) {
                         ForEach(0..<2) { _ in
                             PokemonItemView()
                         }
                     }
                 }
-            }.padding(10)
+            }.frame(minWidth: 0, maxWidth: .infinity, alignment: .top)
         }
     }
 }

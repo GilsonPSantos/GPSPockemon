@@ -12,12 +12,14 @@ struct PokemonItemView: View {
     var body: some View {
         VStack {
             Image("bullbassauro")
-                .resizable()
-                .frame(width: 150, height: 150, alignment: .leading)
-                .clipShape(Circle())
-                .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                .shadow(radius: 10)
-            Text("Bulbassaur")
+            .resizable()
+            .aspectRatio(1, contentMode: .fit)
+            .frame(width: 150)
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .shadow(radius: 10)
+            
+            Text("Bulbassaur ")
                 .bold()
                 .font(.system(size: 17))
             HStack {
@@ -25,6 +27,7 @@ struct PokemonItemView: View {
                 LabelTypeView(name: "Grass", color: Color.blue)
             }
         }
+        
     }
 }
 
