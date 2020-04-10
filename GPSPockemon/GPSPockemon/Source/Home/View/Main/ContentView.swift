@@ -10,7 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        ScrollView(.vertical) {
+            VStack {
+                ForEach(0..<10) {_ in
+                    HStack {
+                        ForEach(0..<2) { _ in
+                            PokemonItemView()
+                        }
+                    }
+                }
+            }.padding(10)
+        }
     }
 }
 

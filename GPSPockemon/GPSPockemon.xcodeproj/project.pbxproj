@@ -19,6 +19,9 @@
 		02926FC32431683000ADF855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02926FC12431683000ADF855 /* LaunchScreen.storyboard */; };
 		02926FCE2431683100ADF855 /* GPSPockemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02926FCD2431683100ADF855 /* GPSPockemonTests.swift */; };
 		02926FD92431683100ADF855 /* GPSPockemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02926FD82431683100ADF855 /* GPSPockemonUITests.swift */; };
+		02D885BB243FF7B700CEC447 /* LabelTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D885BA243FF7B700CEC447 /* LabelTypeView.swift */; };
+		02D885BC243FF7B800CEC447 /* LabelTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D885BA243FF7B700CEC447 /* LabelTypeView.swift */; };
+		02D885BD243FF7B800CEC447 /* LabelTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D885BA243FF7B700CEC447 /* LabelTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,7 @@
 		02926FD42431683100ADF855 /* GPSPockemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSPockemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02926FD82431683100ADF855 /* GPSPockemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSPockemonUITests.swift; sourceTree = "<group>"; };
 		02926FDA2431683100ADF855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D885BA243FF7B700CEC447 /* LabelTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				0277BA46243FDE010059F7D6 /* PokemonItemView.swift */,
+				02D885B9243FF75F00CEC447 /* LabelTypeView */,
 			);
 			path = PokemonItem;
 			sourceTree = "<group>";
@@ -238,6 +243,14 @@
 				02926FB72431682E00ADF855 /* GPSPockemon.xcdatamodeld */,
 			);
 			path = DataBase;
+			sourceTree = "<group>";
+		};
+		02D885B9243FF75F00CEC447 /* LabelTypeView */ = {
+			isa = PBXGroup;
+			children = (
+				02D885BA243FF7B700CEC447 /* LabelTypeView.swift */,
+			);
+			path = LabelTypeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +387,7 @@
 				02926FB42431682E00ADF855 /* AppDelegate.swift in Sources */,
 				0277BA47243FDE010059F7D6 /* PokemonItemView.swift in Sources */,
 				02926FB92431682E00ADF855 /* GPSPockemon.xcdatamodeld in Sources */,
+				02D885BB243FF7B700CEC447 /* LabelTypeView.swift in Sources */,
 				02926FBB2431682E00ADF855 /* ContentView.swift in Sources */,
 				02926FB62431682E00ADF855 /* SceneDelegate.swift in Sources */,
 			);
@@ -383,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D885BC243FF7B800CEC447 /* LabelTypeView.swift in Sources */,
 				02926FCE2431683100ADF855 /* GPSPockemonTests.swift in Sources */,
 				0277BA48243FDE010059F7D6 /* PokemonItemView.swift in Sources */,
 			);
@@ -392,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D885BD243FF7B800CEC447 /* LabelTypeView.swift in Sources */,
 				02926FD92431683100ADF855 /* GPSPockemonUITests.swift in Sources */,
 				0277BA49243FDE010059F7D6 /* PokemonItemView.swift in Sources */,
 			);

@@ -19,16 +19,12 @@ struct PokemonItemView: View {
                 .shadow(radius: 10)
             Text("Bulbassaur")
                 .bold()
-                .font(.title)
+                .font(.system(size: 17))
             HStack {
-                Text("Grass")
-                    .padding(5)
-                    .background(Color.green)
-                Text("Paison")
-                    .padding(5)
-                    .background(Color.blue)
+                LabelTypeView(name: "Grass", color: Color.green)
+                LabelTypeView(name: "Grass", color: Color.blue)
             }
-        }.padding()  
+        }
     }
 }
 
