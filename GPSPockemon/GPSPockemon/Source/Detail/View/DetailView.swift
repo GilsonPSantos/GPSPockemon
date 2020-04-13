@@ -10,21 +10,50 @@ import SwiftUI
 
 struct DetailView: View {
     var body: some View {
-        GeometryReader { metrics in
-            ScrollView(.vertical) {
-                VStack {
-                    Image("bulbassouroFull")
-                        .resizable()
-                        .aspectRatio(1, contentMode: .fit)
-                        .frame(width: metrics.size.width / 2)
-                    .clipShape(Circle())
-                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                    .shadow(radius: 10)
-                }.padding()
-                    .edgesIgnoringSafeArea(.top)
-            }
+        ScrollView(.vertical) {
+            GeometryReader { geometry in
+                Image("bulbassouroFull")
+                    .resizable()
+//                .scaledToFit()
+                    .scaledToFill()
+                    .frame(width: geometry.size.width, height: self.getHeightForHeaderImage(geometry))
+                    .blur(radius: self.getBlurRadiusForImage(geometry))
+                    .clipped()
+                    .offset(x: 0, y: self.getOffsetForHeaderImage(geometry))
+            }.frame(height: 200)
+            .edgesIgnoringSafeArea(.all)
+            .navigationBarHidden(true)
         }
-        
+    }
+    
+    private func getOffsetForHeaderImage(_ geometry: GeometryProxy) -> CGFloat {
+        let offset = self.getScrollOffset(geometry)
+        if offset > 0 {
+            return -offset
+        }
+        return 0
+    }
+    
+    private func getScrollOffset(_ geometry: GeometryProxy) -> CGFloat {
+        geometry.frame(in: .global).minY
+    }
+    
+    private func getHeightForHeaderImage(_ geometry: GeometryProxy) -> CGFloat {
+        let offset = getScrollOffset(geometry)
+        let imageHeight = geometry.size.height
+
+        if offset > 0 {
+            return imageHeight + offset
+        }
+
+        return imageHeight
+    }
+    
+    private func getBlurRadiusForImage(_ geometry: GeometryProxy) -> CGFloat {
+        let offset = geometry.frame(in: .global).maxY
+        let height = geometry.size.height
+        let blur = (height - max(offset, 0)) / height
+        return blur * 6
     }
 }
 
